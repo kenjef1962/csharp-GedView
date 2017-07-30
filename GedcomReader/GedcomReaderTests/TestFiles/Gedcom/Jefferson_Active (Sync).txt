@@ -1,0 +1,1514 @@
+----------------------------------------------------------------------------------------------------
+Gedcom Reader - Log File
+----------------------------------------------------------------------------------------------------
+
+Filename:  	..\..\TestFiles\Gedcom\Jefferson_Active (Sync).ged
+Read Time: 	00:00:00.0529756
+
+----------------------------------------------------------------------------------------------------
+Gedcom items:
+
+Individuals:  	330
+Families:     	109
+Repositories: 	13
+Sources:      	67
+Media:        	301
+Notes:        	78
+
+----------------------------------------------------------------------------------------------------
+Log items: (490)
+
+1. Value length greater than 15 (line 3)
+   2	VERS	Family Tree Maker (21.0.0.723)
+
+2. Unsupported token (line 8)
+   3	PHON	(801) 705-7000
+
+3. Unsupported token (line 17)
+   0	SUBM	@SUBM@
+
+4. Unsupported token (custom) (line 350)
+   1	_INIT	MTIMP - Mount Timpanogas Temple
+   2	DATE	22 JAN 1985
+   2	PLAC	American Fork, Utah, Utah, USA
+   2	SOUR	@S33@
+   3	PAGE	LDS Church record for Kendall Jay Jefferson
+   3	DATA	
+   4	TEXT	Record no: 000-1589-875A
+   3	OBJE	@M87@
+
+5. Unsupported token (custom) (line 597)
+   1	_INIT	JRIVE - Jordan River Utah Temple
+   2	DATE	25 JUL 1987
+   2	PLAC	South Jordan, Salt Lake, Utah, USA
+
+6. Unsupported token (custom) (line 772)
+   1	_INIT	JRIVE - Jordan River Utah Temple
+   2	DATE	25 JUL 1987
+   2	PLAC	South Jordan, Salt Lake, Utah, USA
+
+7. Unsupported token (custom) (line 1083)
+   1	_INIT	ARIZO - Mesa Arizona Temple
+   2	DATE	23 JAN 1983
+   2	PLAC	Mesa, Maricopa, Arizona, USA
+   2	SOUR	@S33@
+   3	PAGE	LDS Church record for Jennifer Davidson
+   3	DATA	
+   4	TEXT	Record no: 000-0998-1942
+   3	OBJE	@M85@
+
+8. Unsupported token (custom) (line 1218)
+   1	_INIT	MTIMP - Mount Timpanogas Temple
+   2	DATE	2010
+   2	PLAC	American Fork, Utah, Utah, USA
+
+9. Unsupported token (custom) (line 1366)
+   1	_INIT	MTIMP - Mount Timpanogas Temple
+   2	DATE	AUG 2010
+   2	PLAC	American Fork, Utah, Utah, USA
+
+10. Unsupported token (custom) (line 2235)
+   1	_INIT	MTIMP - Mount Timpanogas Temple
+   2	DATE	11 AUG 2010
+   2	PLAC	American Fork, Utah, Utah, USA
+
+11. Unsupported token (custom) (line 20780)
+   2	_FREL	Natural
+
+12. Unsupported token (custom) (line 20784)
+   2	_FREL	Natural
+
+13. Unsupported token (custom) (line 20789)
+   2	_FREL	Adopted
+
+14. Unsupported token (custom) (line 20790)
+   2	_MREL	Adopted
+
+15. Unsupported token (custom) (line 20792)
+   2	_FREL	Natural
+
+16. Unsupported token (custom) (line 20793)
+   2	_MREL	Natural
+
+17. Unsupported token (custom) (line 20837)
+   2	_FREL	Natural
+
+18. Unsupported token (custom) (line 20838)
+   2	_MREL	Natural
+
+19. Unsupported token (custom) (line 20840)
+   2	_FREL	Natural
+
+20. Unsupported token (custom) (line 20841)
+   2	_MREL	Natural
+
+21. Unsupported token (custom) (line 20843)
+   2	_FREL	Natural
+
+22. Unsupported token (custom) (line 20844)
+   2	_MREL	Natural
+
+23. Unsupported token (custom) (line 20846)
+   2	_FREL	Natural
+
+24. Unsupported token (custom) (line 20847)
+   2	_MREL	Natural
+
+25. Unsupported token (custom) (line 20916)
+   2	_FREL	Natural
+
+26. Unsupported token (custom) (line 20917)
+   2	_MREL	Natural
+
+27. Unsupported token (custom) (line 20919)
+   2	_FREL	Natural
+
+28. Unsupported token (custom) (line 20920)
+   2	_MREL	Natural
+
+29. Unsupported token (custom) (line 20922)
+   2	_FREL	Natural
+
+30. Unsupported token (custom) (line 20923)
+   2	_MREL	Natural
+
+31. Unsupported token (custom) (line 20943)
+   2	_FREL	Natural
+
+32. Unsupported token (custom) (line 20944)
+   2	_MREL	Natural
+
+33. Unsupported token (custom) (line 20946)
+   2	_FREL	Natural
+
+34. Unsupported token (custom) (line 20947)
+   2	_MREL	Natural
+
+35. Unsupported token (custom) (line 20955)
+   2	_FREL	Natural
+
+36. Unsupported token (custom) (line 20956)
+   2	_MREL	Natural
+
+37. Unsupported token (custom) (line 20958)
+   2	_FREL	Natural
+
+38. Unsupported token (custom) (line 20959)
+   2	_MREL	Natural
+
+39. Unsupported token (custom) (line 20961)
+   2	_FREL	Natural
+
+40. Unsupported token (custom) (line 20962)
+   2	_MREL	Natural
+
+41. Unsupported token (custom) (line 20964)
+   2	_FREL	Natural
+
+42. Unsupported token (custom) (line 20965)
+   2	_MREL	Natural
+
+43. Unsupported token (custom) (line 20986)
+   2	_FREL	Natural
+
+44. Unsupported token (custom) (line 20987)
+   2	_MREL	Natural
+
+45. Unsupported token (custom) (line 20989)
+   2	_FREL	Natural
+
+46. Unsupported token (custom) (line 20990)
+   2	_MREL	Natural
+
+47. Unsupported token (custom) (line 20992)
+   2	_FREL	Natural
+
+48. Unsupported token (custom) (line 20993)
+   2	_MREL	Natural
+
+49. Unsupported token (custom) (line 21014)
+   2	_FREL	Natural
+
+50. Unsupported token (custom) (line 21015)
+   2	_MREL	Natural
+
+51. Unsupported token (custom) (line 21017)
+   2	_FREL	Natural
+
+52. Unsupported token (custom) (line 21018)
+   2	_MREL	Natural
+
+53. Unsupported token (custom) (line 21020)
+   2	_FREL	Natural
+
+54. Unsupported token (custom) (line 21021)
+   2	_MREL	Natural
+
+55. Unsupported token (custom) (line 21023)
+   2	_FREL	Natural
+
+56. Unsupported token (custom) (line 21024)
+   2	_MREL	Natural
+
+57. Unsupported token (custom) (line 21026)
+   2	_FREL	Natural
+
+58. Unsupported token (custom) (line 21027)
+   2	_MREL	Natural
+
+59. Unsupported token (custom) (line 21029)
+   2	_FREL	Natural
+
+60. Unsupported token (custom) (line 21030)
+   2	_MREL	Natural
+
+61. Unsupported token (custom) (line 21035)
+   2	_FREL	Natural
+
+62. Unsupported token (custom) (line 21036)
+   2	_MREL	Natural
+
+63. Unsupported token (custom) (line 21038)
+   2	_FREL	Natural
+
+64. Unsupported token (custom) (line 21039)
+   2	_MREL	Natural
+
+65. Unsupported token (custom) (line 21041)
+   2	_FREL	Natural
+
+66. Unsupported token (custom) (line 21042)
+   2	_MREL	Natural
+
+67. Unsupported token (custom) (line 21044)
+   2	_FREL	Natural
+
+68. Unsupported token (custom) (line 21045)
+   2	_MREL	Natural
+
+69. Unsupported token (custom) (line 21058)
+   2	_FREL	Natural
+
+70. Unsupported token (custom) (line 21059)
+   2	_MREL	Natural
+
+71. Unsupported token (custom) (line 21061)
+   2	_FREL	Natural
+
+72. Unsupported token (custom) (line 21062)
+   2	_MREL	Natural
+
+73. Unsupported token (custom) (line 21064)
+   2	_FREL	Natural
+
+74. Unsupported token (custom) (line 21065)
+   2	_MREL	Natural
+
+75. Unsupported token (custom) (line 21067)
+   2	_FREL	Natural
+
+76. Unsupported token (custom) (line 21068)
+   2	_MREL	Natural
+
+77. Unsupported token (custom) (line 21070)
+   2	_FREL	Natural
+
+78. Unsupported token (custom) (line 21071)
+   2	_MREL	Natural
+
+79. Unsupported token (custom) (line 21073)
+   2	_FREL	Natural
+
+80. Unsupported token (custom) (line 21074)
+   2	_MREL	Natural
+
+81. Unsupported token (custom) (line 21076)
+   2	_FREL	Natural
+
+82. Unsupported token (custom) (line 21077)
+   2	_MREL	Natural
+
+83. Unsupported token (custom) (line 21108)
+   2	_FREL	Natural
+
+84. Unsupported token (custom) (line 21109)
+   2	_MREL	Natural
+
+85. Unsupported token (custom) (line 21123)
+   2	_FREL	Natural
+
+86. Unsupported token (custom) (line 21124)
+   2	_MREL	Natural
+
+87. Unsupported token (custom) (line 21126)
+   2	_FREL	Natural
+
+88. Unsupported token (custom) (line 21127)
+   2	_MREL	Natural
+
+89. Unsupported token (custom) (line 21129)
+   2	_FREL	Natural
+
+90. Unsupported token (custom) (line 21130)
+   2	_MREL	Natural
+
+91. Unsupported token (custom) (line 21156)
+   2	_FREL	Natural
+
+92. Unsupported token (custom) (line 21157)
+   2	_MREL	Natural
+
+93. Unsupported token (custom) (line 21159)
+   2	_FREL	Natural
+
+94. Unsupported token (custom) (line 21160)
+   2	_MREL	Natural
+
+95. Unsupported token (custom) (line 21162)
+   2	_FREL	Natural
+
+96. Unsupported token (custom) (line 21163)
+   2	_MREL	Natural
+
+97. Unsupported token (custom) (line 21165)
+   2	_FREL	Natural
+
+98. Unsupported token (custom) (line 21166)
+   2	_MREL	Natural
+
+99. Unsupported token (custom) (line 21168)
+   2	_FREL	Natural
+
+100. Unsupported token (custom) (line 21169)
+   2	_MREL	Natural
+
+101. Unsupported token (custom) (line 21171)
+   2	_FREL	Natural
+
+102. Unsupported token (custom) (line 21172)
+   2	_MREL	Natural
+
+103. Unsupported token (custom) (line 21174)
+   2	_FREL	Natural
+
+104. Unsupported token (custom) (line 21175)
+   2	_MREL	Natural
+
+105. Unsupported token (custom) (line 21197)
+   2	_FREL	Natural
+
+106. Unsupported token (custom) (line 21198)
+   2	_MREL	Natural
+
+107. Unsupported token (custom) (line 21210)
+   2	_FREL	Natural
+
+108. Unsupported token (custom) (line 21211)
+   2	_MREL	Natural
+
+109. Unsupported token (custom) (line 21213)
+   2	_FREL	Natural
+
+110. Unsupported token (custom) (line 21214)
+   2	_MREL	Natural
+
+111. Unsupported token (custom) (line 21216)
+   2	_FREL	Natural
+
+112. Unsupported token (custom) (line 21217)
+   2	_MREL	Natural
+
+113. Unsupported token (custom) (line 21219)
+   2	_FREL	Natural
+
+114. Unsupported token (custom) (line 21220)
+   2	_MREL	Natural
+
+115. Unsupported token (custom) (line 21222)
+   2	_FREL	Natural
+
+116. Unsupported token (custom) (line 21223)
+   2	_MREL	Natural
+
+117. Unsupported token (custom) (line 21225)
+   2	_FREL	Natural
+
+118. Unsupported token (custom) (line 21226)
+   2	_MREL	Natural
+
+119. Unsupported token (custom) (line 21228)
+   2	_FREL	Natural
+
+120. Unsupported token (custom) (line 21229)
+   2	_MREL	Natural
+
+121. Unsupported token (custom) (line 21248)
+   2	_FREL	Natural
+
+122. Unsupported token (custom) (line 21249)
+   2	_MREL	Natural
+
+123. Unsupported token (custom) (line 21254)
+   2	_FREL	Natural
+
+124. Unsupported token (custom) (line 21255)
+   2	_MREL	Natural
+
+125. Unsupported token (custom) (line 21257)
+   2	_FREL	Natural
+
+126. Unsupported token (custom) (line 21258)
+   2	_MREL	Natural
+
+127. Unsupported token (custom) (line 21263)
+   2	_FREL	Natural
+
+128. Unsupported token (custom) (line 21264)
+   2	_MREL	Natural
+
+129. Unsupported token (custom) (line 21266)
+   2	_FREL	Natural
+
+130. Unsupported token (custom) (line 21267)
+   2	_MREL	Natural
+
+131. Unsupported token (custom) (line 21289)
+   2	_FREL	Natural
+
+132. Unsupported token (custom) (line 21290)
+   2	_MREL	Natural
+
+133. Unsupported token (custom) (line 21295)
+   2	_FREL	Natural
+
+134. Unsupported token (custom) (line 21296)
+   2	_MREL	Natural
+
+135. Unsupported token (custom) (line 21301)
+   2	_FREL	Natural
+
+136. Unsupported token (custom) (line 21302)
+   2	_MREL	Natural
+
+137. Unsupported token (custom) (line 21304)
+   2	_FREL	Natural
+
+138. Unsupported token (custom) (line 21305)
+   2	_MREL	Natural
+
+139. Unsupported token (custom) (line 21310)
+   2	_FREL	Natural
+
+140. Unsupported token (custom) (line 21311)
+   2	_MREL	Natural
+
+141. Unsupported token (custom) (line 21313)
+   2	_FREL	Natural
+
+142. Unsupported token (custom) (line 21314)
+   2	_MREL	Natural
+
+143. Unsupported token (custom) (line 21316)
+   2	_FREL	Natural
+
+144. Unsupported token (custom) (line 21317)
+   2	_MREL	Natural
+
+145. Unsupported token (custom) (line 21319)
+   2	_FREL	Natural
+
+146. Unsupported token (custom) (line 21320)
+   2	_MREL	Natural
+
+147. Unsupported token (custom) (line 21322)
+   2	_FREL	Natural
+
+148. Unsupported token (custom) (line 21323)
+   2	_MREL	Natural
+
+149. Unsupported token (custom) (line 21334)
+   2	_FREL	Natural
+
+150. Unsupported token (custom) (line 21335)
+   2	_MREL	Natural
+
+151. Unsupported token (custom) (line 21337)
+   2	_FREL	Natural
+
+152. Unsupported token (custom) (line 21338)
+   2	_MREL	Natural
+
+153. Unsupported token (custom) (line 21340)
+   2	_FREL	Natural
+
+154. Unsupported token (custom) (line 21341)
+   2	_MREL	Natural
+
+155. Unsupported token (custom) (line 21343)
+   2	_FREL	Natural
+
+156. Unsupported token (custom) (line 21344)
+   2	_MREL	Natural
+
+157. Unsupported token (custom) (line 21346)
+   2	_FREL	Natural
+
+158. Unsupported token (custom) (line 21347)
+   2	_MREL	Natural
+
+159. Unsupported token (custom) (line 21349)
+   2	_FREL	Natural
+
+160. Unsupported token (custom) (line 21350)
+   2	_MREL	Natural
+
+161. Unsupported token (custom) (line 21352)
+   2	_FREL	Natural
+
+162. Unsupported token (custom) (line 21353)
+   2	_MREL	Natural
+
+163. Unsupported token (custom) (line 21355)
+   2	_FREL	Natural
+
+164. Unsupported token (custom) (line 21356)
+   2	_MREL	Natural
+
+165. Unsupported token (custom) (line 21358)
+   2	_FREL	Natural
+
+166. Unsupported token (custom) (line 21359)
+   2	_MREL	Natural
+
+167. Unsupported token (custom) (line 21386)
+   2	_FREL	Natural
+
+168. Unsupported token (custom) (line 21387)
+   2	_MREL	Natural
+
+169. Unsupported token (custom) (line 21399)
+   2	_FREL	Natural
+
+170. Unsupported token (custom) (line 21400)
+   2	_MREL	Natural
+
+171. Unsupported token (custom) (line 21402)
+   2	_FREL	Natural
+
+172. Unsupported token (custom) (line 21403)
+   2	_MREL	Natural
+
+173. Unsupported token (custom) (line 21405)
+   2	_FREL	Natural
+
+174. Unsupported token (custom) (line 21406)
+   2	_MREL	Natural
+
+175. Unsupported token (custom) (line 21408)
+   2	_FREL	Natural
+
+176. Unsupported token (custom) (line 21409)
+   2	_MREL	Natural
+
+177. Unsupported token (custom) (line 21414)
+   2	_FREL	Natural
+
+178. Unsupported token (custom) (line 21415)
+   2	_MREL	Natural
+
+179. Unsupported token (custom) (line 21417)
+   2	_FREL	Natural
+
+180. Unsupported token (custom) (line 21418)
+   2	_MREL	Natural
+
+181. Unsupported token (custom) (line 21420)
+   2	_FREL	Natural
+
+182. Unsupported token (custom) (line 21421)
+   2	_MREL	Natural
+
+183. Unsupported token (custom) (line 21423)
+   2	_FREL	Natural
+
+184. Unsupported token (custom) (line 21424)
+   2	_MREL	Natural
+
+185. Unsupported token (custom) (line 21426)
+   2	_FREL	Natural
+
+186. Unsupported token (custom) (line 21427)
+   2	_MREL	Natural
+
+187. Unsupported token (custom) (line 21429)
+   2	_FREL	Natural
+
+188. Unsupported token (custom) (line 21430)
+   2	_MREL	Natural
+
+189. Unsupported token (custom) (line 21432)
+   2	_FREL	Natural
+
+190. Unsupported token (custom) (line 21433)
+   2	_MREL	Natural
+
+191. Unsupported token (custom) (line 21435)
+   2	_FREL	Natural
+
+192. Unsupported token (custom) (line 21436)
+   2	_MREL	Natural
+
+193. Unsupported token (custom) (line 21438)
+   2	_FREL	Natural
+
+194. Unsupported token (custom) (line 21439)
+   2	_MREL	Natural
+
+195. Unsupported token (custom) (line 21441)
+   2	_FREL	Natural
+
+196. Unsupported token (custom) (line 21442)
+   2	_MREL	Natural
+
+197. Unsupported token (custom) (line 21444)
+   2	_FREL	Natural
+
+198. Unsupported token (custom) (line 21445)
+   2	_MREL	Natural
+
+199. Unsupported token (custom) (line 21470)
+   2	_FREL	Natural
+
+200. Unsupported token (custom) (line 21471)
+   2	_MREL	Natural
+
+201. Unsupported token (custom) (line 21473)
+   2	_FREL	Natural
+
+202. Unsupported token (custom) (line 21474)
+   2	_MREL	Natural
+
+203. Unsupported token (custom) (line 21476)
+   2	_FREL	Natural
+
+204. Unsupported token (custom) (line 21477)
+   2	_MREL	Natural
+
+205. Unsupported token (custom) (line 21479)
+   2	_FREL	Natural
+
+206. Unsupported token (custom) (line 21480)
+   2	_MREL	Natural
+
+207. Unsupported token (custom) (line 21482)
+   2	_FREL	Natural
+
+208. Unsupported token (custom) (line 21483)
+   2	_MREL	Natural
+
+209. Unsupported token (custom) (line 21485)
+   2	_FREL	Natural
+
+210. Unsupported token (custom) (line 21486)
+   2	_MREL	Natural
+
+211. Unsupported token (custom) (line 21488)
+   2	_FREL	Natural
+
+212. Unsupported token (custom) (line 21489)
+   2	_MREL	Natural
+
+213. Unsupported token (custom) (line 21491)
+   2	_FREL	Natural
+
+214. Unsupported token (custom) (line 21492)
+   2	_MREL	Natural
+
+215. Unsupported token (custom) (line 21494)
+   2	_FREL	Natural
+
+216. Unsupported token (custom) (line 21495)
+   2	_MREL	Natural
+
+217. Unsupported token (custom) (line 21526)
+   2	_FREL	Natural
+
+218. Unsupported token (custom) (line 21527)
+   2	_MREL	Natural
+
+219. Unsupported token (custom) (line 21532)
+   2	_FREL	Natural
+
+220. Unsupported token (custom) (line 21533)
+   2	_MREL	Natural
+
+221. Unsupported token (custom) (line 21535)
+   2	_FREL	Natural
+
+222. Unsupported token (custom) (line 21536)
+   2	_MREL	Natural
+
+223. Unsupported token (custom) (line 21538)
+   2	_FREL	Natural
+
+224. Unsupported token (custom) (line 21539)
+   2	_MREL	Natural
+
+225. Unsupported token (custom) (line 21541)
+   2	_FREL	Natural
+
+226. Unsupported token (custom) (line 21542)
+   2	_MREL	Natural
+
+227. Unsupported token (custom) (line 21544)
+   2	_FREL	Natural
+
+228. Unsupported token (custom) (line 21545)
+   2	_MREL	Natural
+
+229. Unsupported token (custom) (line 21547)
+   2	_FREL	Natural
+
+230. Unsupported token (custom) (line 21548)
+   2	_MREL	Natural
+
+231. Unsupported token (custom) (line 21550)
+   2	_FREL	Natural
+
+232. Unsupported token (custom) (line 21551)
+   2	_MREL	Natural
+
+233. Unsupported token (custom) (line 21553)
+   2	_FREL	Natural
+
+234. Unsupported token (custom) (line 21554)
+   2	_MREL	Natural
+
+235. Unsupported token (custom) (line 21556)
+   2	_FREL	Natural
+
+236. Unsupported token (custom) (line 21557)
+   2	_MREL	Natural
+
+237. Unsupported token (custom) (line 21559)
+   2	_FREL	Natural
+
+238. Unsupported token (custom) (line 21560)
+   2	_MREL	Natural
+
+239. Unsupported token (custom) (line 21591)
+   2	_FREL	Natural
+
+240. Unsupported token (custom) (line 21592)
+   2	_MREL	Natural
+
+241. Unsupported token (custom) (line 21599)
+   2	_FREL	Natural
+
+242. Unsupported token (custom) (line 21600)
+   2	_MREL	Natural
+
+243. Unsupported token (custom) (line 21602)
+   2	_FREL	Natural
+
+244. Unsupported token (custom) (line 21603)
+   2	_MREL	Natural
+
+245. Unsupported token (custom) (line 21605)
+   2	_FREL	Natural
+
+246. Unsupported token (custom) (line 21606)
+   2	_MREL	Natural
+
+247. Unsupported token (custom) (line 21608)
+   2	_FREL	Natural
+
+248. Unsupported token (custom) (line 21609)
+   2	_MREL	Natural
+
+249. Unsupported token (custom) (line 21611)
+   2	_FREL	Natural
+
+250. Unsupported token (custom) (line 21612)
+   2	_MREL	Natural
+
+251. Unsupported token (custom) (line 21617)
+   2	_FREL	Natural
+
+252. Unsupported token (custom) (line 21618)
+   2	_MREL	Natural
+
+253. Unsupported token (custom) (line 21623)
+   2	_FREL	Natural
+
+254. Unsupported token (custom) (line 21624)
+   2	_MREL	Natural
+
+255. Unsupported token (custom) (line 21629)
+   2	_FREL	Natural
+
+256. Unsupported token (custom) (line 21630)
+   2	_MREL	Natural
+
+257. Unsupported token (custom) (line 21635)
+   2	_FREL	Natural
+
+258. Unsupported token (custom) (line 21636)
+   2	_MREL	Natural
+
+259. Unsupported token (custom) (line 21638)
+   2	_FREL	Natural
+
+260. Unsupported token (custom) (line 21639)
+   2	_MREL	Natural
+
+261. Unsupported token (custom) (line 21641)
+   2	_FREL	Natural
+
+262. Unsupported token (custom) (line 21642)
+   2	_MREL	Natural
+
+263. Unsupported token (custom) (line 21644)
+   2	_FREL	Natural
+
+264. Unsupported token (custom) (line 21645)
+   2	_MREL	Natural
+
+265. Unsupported token (custom) (line 21647)
+   2	_FREL	Natural
+
+266. Unsupported token (custom) (line 21648)
+   2	_MREL	Natural
+
+267. Unsupported token (custom) (line 21650)
+   2	_FREL	Natural
+
+268. Unsupported token (custom) (line 21651)
+   2	_MREL	Natural
+
+269. Unsupported token (custom) (line 21653)
+   2	_FREL	Natural
+
+270. Unsupported token (custom) (line 21654)
+   2	_MREL	Natural
+
+271. Unsupported token (custom) (line 21656)
+   2	_FREL	Natural
+
+272. Unsupported token (custom) (line 21657)
+   2	_MREL	Natural
+
+273. Unsupported token (custom) (line 21659)
+   2	_FREL	Natural
+
+274. Unsupported token (custom) (line 21660)
+   2	_MREL	Natural
+
+275. Unsupported token (custom) (line 21662)
+   2	_FREL	Natural
+
+276. Unsupported token (custom) (line 21663)
+   2	_MREL	Natural
+
+277. Unsupported token (custom) (line 21665)
+   2	_FREL	Natural
+
+278. Unsupported token (custom) (line 21666)
+   2	_MREL	Natural
+
+279. Unsupported token (custom) (line 21668)
+   2	_FREL	Natural
+
+280. Unsupported token (custom) (line 21669)
+   2	_MREL	Natural
+
+281. Unsupported token (custom) (line 21701)
+   2	_FREL	Natural
+
+282. Unsupported token (custom) (line 21702)
+   2	_MREL	Natural
+
+283. Unsupported token (custom) (line 21718)
+   2	_FREL	Natural
+
+284. Unsupported token (custom) (line 21719)
+   2	_MREL	Natural
+
+285. Unsupported token (custom) (line 21731)
+   2	_FREL	Natural
+
+286. Unsupported token (custom) (line 21732)
+   2	_MREL	Natural
+
+287. Unsupported token (custom) (line 21737)
+   2	_FREL	Natural
+
+288. Unsupported token (custom) (line 21738)
+   2	_MREL	Natural
+
+289. Unsupported token (custom) (line 21743)
+   2	_FREL	Natural
+
+290. Unsupported token (custom) (line 21744)
+   2	_MREL	Natural
+
+291. Unsupported token (custom) (line 21746)
+   2	_FREL	Natural
+
+292. Unsupported token (custom) (line 21747)
+   2	_MREL	Natural
+
+293. Unsupported token (custom) (line 21749)
+   2	_FREL	Natural
+
+294. Unsupported token (custom) (line 21750)
+   2	_MREL	Natural
+
+295. Unsupported token (custom) (line 21752)
+   2	_FREL	Natural
+
+296. Unsupported token (custom) (line 21753)
+   2	_MREL	Natural
+
+297. Unsupported token (custom) (line 21755)
+   2	_FREL	Natural
+
+298. Unsupported token (custom) (line 21756)
+   2	_MREL	Natural
+
+299. Unsupported token (custom) (line 21758)
+   2	_FREL	Natural
+
+300. Unsupported token (custom) (line 21759)
+   2	_MREL	Natural
+
+301. Unsupported token (custom) (line 21761)
+   2	_FREL	Natural
+
+302. Unsupported token (custom) (line 21762)
+   2	_MREL	Natural
+
+303. Unsupported token (custom) (line 21764)
+   2	_FREL	Natural
+
+304. Unsupported token (custom) (line 21765)
+   2	_MREL	Natural
+
+305. Unsupported token (custom) (line 21803)
+   2	_FREL	Natural
+
+306. Unsupported token (custom) (line 21804)
+   2	_MREL	Natural
+
+307. Unsupported token (custom) (line 21806)
+   2	_FREL	Natural
+
+308. Unsupported token (custom) (line 21807)
+   2	_MREL	Natural
+
+309. Unsupported token (custom) (line 21809)
+   2	_FREL	Natural
+
+310. Unsupported token (custom) (line 21810)
+   2	_MREL	Natural
+
+311. Unsupported token (custom) (line 21812)
+   2	_FREL	Natural
+
+312. Unsupported token (custom) (line 21813)
+   2	_MREL	Natural
+
+313. Unsupported token (custom) (line 21815)
+   2	_FREL	Natural
+
+314. Unsupported token (custom) (line 21816)
+   2	_MREL	Natural
+
+315. Unsupported token (custom) (line 21818)
+   2	_FREL	Natural
+
+316. Unsupported token (custom) (line 21819)
+   2	_MREL	Natural
+
+317. Unsupported token (custom) (line 21821)
+   2	_FREL	Natural
+
+318. Unsupported token (custom) (line 21822)
+   2	_MREL	Natural
+
+319. Unsupported token (custom) (line 21824)
+   2	_FREL	Natural
+
+320. Unsupported token (custom) (line 21825)
+   2	_MREL	Natural
+
+321. Unsupported token (custom) (line 21827)
+   2	_FREL	Natural
+
+322. Unsupported token (custom) (line 21828)
+   2	_MREL	Natural
+
+323. Unsupported token (custom) (line 21830)
+   2	_FREL	Natural
+
+324. Unsupported token (custom) (line 21831)
+   2	_MREL	Natural
+
+325. Unsupported token (custom) (line 21833)
+   2	_FREL	Natural
+
+326. Unsupported token (custom) (line 21834)
+   2	_MREL	Natural
+
+327. Unsupported token (custom) (line 21858)
+   2	_FREL	Natural
+
+328. Unsupported token (custom) (line 21859)
+   2	_MREL	Natural
+
+329. Unsupported token (custom) (line 21864)
+   2	_FREL	Natural
+
+330. Unsupported token (custom) (line 21865)
+   2	_MREL	Natural
+
+331. Unsupported token (custom) (line 21870)
+   2	_FREL	Natural
+
+332. Unsupported token (custom) (line 21871)
+   2	_MREL	Natural
+
+333. Unsupported token (custom) (line 22153)
+   2	_FREL	Natural
+
+334. Unsupported token (custom) (line 22154)
+   2	_MREL	Natural
+
+335. Unsupported token (custom) (line 22159)
+   2	_FREL	Natural
+
+336. Unsupported token (custom) (line 22160)
+   2	_MREL	Natural
+
+337. Unsupported token (custom) (line 22162)
+   2	_FREL	Natural
+
+338. Unsupported token (custom) (line 22163)
+   2	_MREL	Natural
+
+339. Unsupported token (custom) (line 22165)
+   2	_FREL	Natural
+
+340. Unsupported token (custom) (line 22166)
+   2	_MREL	Natural
+
+341. Unsupported token (custom) (line 22168)
+   2	_FREL	Natural
+
+342. Unsupported token (custom) (line 22169)
+   2	_MREL	Natural
+
+343. Unsupported token (custom) (line 22171)
+   2	_FREL	Natural
+
+344. Unsupported token (custom) (line 22172)
+   2	_MREL	Natural
+
+345. Unsupported token (custom) (line 22174)
+   2	_FREL	Natural
+
+346. Unsupported token (custom) (line 22175)
+   2	_MREL	Natural
+
+347. Unsupported token (custom) (line 22177)
+   2	_FREL	Natural
+
+348. Unsupported token (custom) (line 22178)
+   2	_MREL	Natural
+
+349. Unsupported token (custom) (line 22180)
+   2	_FREL	Natural
+
+350. Unsupported token (custom) (line 22181)
+   2	_MREL	Natural
+
+351. Unsupported token (custom) (line 22205)
+   2	_FREL	Natural
+
+352. Unsupported token (custom) (line 22206)
+   2	_MREL	Natural
+
+353. Unsupported token (custom) (line 22208)
+   2	_FREL	Natural
+
+354. Unsupported token (custom) (line 22209)
+   2	_MREL	Natural
+
+355. Unsupported token (custom) (line 22211)
+   2	_FREL	Natural
+
+356. Unsupported token (custom) (line 22212)
+   2	_MREL	Natural
+
+357. Unsupported token (custom) (line 22224)
+   2	_FREL	Natural
+
+358. Unsupported token (custom) (line 22225)
+   2	_MREL	Natural
+
+359. Unsupported token (custom) (line 22227)
+   2	_FREL	Natural
+
+360. Unsupported token (custom) (line 22228)
+   2	_MREL	Natural
+
+361. Unsupported token (custom) (line 22230)
+   2	_FREL	Natural
+
+362. Unsupported token (custom) (line 22231)
+   2	_MREL	Natural
+
+363. Unsupported token (custom) (line 22233)
+   2	_FREL	Natural
+
+364. Unsupported token (custom) (line 22234)
+   2	_MREL	Natural
+
+365. Unsupported token (custom) (line 22236)
+   2	_FREL	Natural
+
+366. Unsupported token (custom) (line 22237)
+   2	_MREL	Natural
+
+367. Unsupported token (custom) (line 22239)
+   2	_FREL	Natural
+
+368. Unsupported token (custom) (line 22240)
+   2	_MREL	Natural
+
+369. Unsupported token (custom) (line 22242)
+   2	_FREL	Natural
+
+370. Unsupported token (custom) (line 22243)
+   2	_MREL	Natural
+
+371. Unsupported token (custom) (line 22264)
+   2	_FREL	Natural
+
+372. Unsupported token (custom) (line 22265)
+   2	_MREL	Natural
+
+373. Unsupported token (custom) (line 22267)
+   2	_FREL	Natural
+
+374. Unsupported token (custom) (line 22268)
+   2	_MREL	Natural
+
+375. Unsupported token (custom) (line 22270)
+   2	_FREL	Natural
+
+376. Unsupported token (custom) (line 22271)
+   2	_MREL	Natural
+
+377. Unsupported token (custom) (line 22273)
+   2	_FREL	Natural
+
+378. Unsupported token (custom) (line 22274)
+   2	_MREL	Natural
+
+379. Unsupported token (custom) (line 22276)
+   2	_FREL	Natural
+
+380. Unsupported token (custom) (line 22277)
+   2	_MREL	Natural
+
+381. Unsupported token (custom) (line 22279)
+   2	_FREL	Natural
+
+382. Unsupported token (custom) (line 22280)
+   2	_MREL	Natural
+
+383. Unsupported token (custom) (line 22295)
+   2	_FREL	Natural
+
+384. Unsupported token (custom) (line 22296)
+   2	_MREL	Natural
+
+385. Unsupported token (custom) (line 22298)
+   2	_FREL	Natural
+
+386. Unsupported token (custom) (line 22299)
+   2	_MREL	Natural
+
+387. Unsupported token (custom) (line 22304)
+   2	_FREL	Natural
+
+388. Unsupported token (custom) (line 22305)
+   2	_MREL	Natural
+
+389. Unsupported token (custom) (line 22307)
+   2	_FREL	Natural
+
+390. Unsupported token (custom) (line 22308)
+   2	_MREL	Natural
+
+391. Unsupported token (custom) (line 22310)
+   2	_FREL	Natural
+
+392. Unsupported token (custom) (line 22311)
+   2	_MREL	Natural
+
+393. Unsupported token (custom) (line 22313)
+   2	_FREL	Natural
+
+394. Unsupported token (custom) (line 22314)
+   2	_MREL	Natural
+
+395. Unsupported token (custom) (line 22316)
+   2	_FREL	Natural
+
+396. Unsupported token (custom) (line 22317)
+   2	_MREL	Natural
+
+397. Unsupported token (custom) (line 22319)
+   2	_FREL	Natural
+
+398. Unsupported token (custom) (line 22320)
+   2	_MREL	Natural
+
+399. Unsupported token (custom) (line 22322)
+   2	_FREL	Natural
+
+400. Unsupported token (custom) (line 22323)
+   2	_MREL	Natural
+
+401. Unsupported token (custom) (line 22333)
+   2	_FREL	Natural
+
+402. Unsupported token (custom) (line 22334)
+   2	_MREL	Natural
+
+403. Unsupported token (custom) (line 22354)
+   2	_FREL	Natural
+
+404. Unsupported token (custom) (line 22355)
+   2	_MREL	Natural
+
+405. Unsupported token (custom) (line 22357)
+   2	_FREL	Natural
+
+406. Unsupported token (custom) (line 22358)
+   2	_MREL	Natural
+
+407. Unsupported token (custom) (line 22360)
+   2	_FREL	Natural
+
+408. Unsupported token (custom) (line 22361)
+   2	_MREL	Natural
+
+409. Unsupported token (custom) (line 22363)
+   2	_FREL	Natural
+
+410. Unsupported token (custom) (line 22364)
+   2	_MREL	Natural
+
+411. Unsupported token (custom) (line 22366)
+   2	_FREL	Natural
+
+412. Unsupported token (custom) (line 22367)
+   2	_MREL	Natural
+
+413. Unsupported token (custom) (line 22369)
+   2	_FREL	Natural
+
+414. Unsupported token (custom) (line 22370)
+   2	_MREL	Natural
+
+415. Unsupported token (custom) (line 22372)
+   2	_FREL	Natural
+
+416. Unsupported token (custom) (line 22373)
+   2	_MREL	Natural
+
+417. Unsupported token (custom) (line 22375)
+   2	_FREL	Natural
+
+418. Unsupported token (custom) (line 22376)
+   2	_MREL	Natural
+
+419. Unsupported token (custom) (line 22378)
+   2	_FREL	Natural
+
+420. Unsupported token (custom) (line 22379)
+   2	_MREL	Natural
+
+421. Unsupported token (custom) (line 22381)
+   2	_FREL	Natural
+
+422. Unsupported token (custom) (line 22382)
+   2	_MREL	Natural
+
+423. Unsupported token (custom) (line 22387)
+   2	_FREL	Natural
+
+424. Unsupported token (custom) (line 22388)
+   2	_MREL	Natural
+
+425. Unsupported token (custom) (line 22393)
+   2	_FREL	Natural
+
+426. Unsupported token (custom) (line 22394)
+   2	_MREL	Natural
+
+427. Unsupported token (custom) (line 22396)
+   2	_FREL	Natural
+
+428. Unsupported token (custom) (line 22397)
+   2	_MREL	Natural
+
+429. Unsupported token (custom) (line 22399)
+   2	_FREL	Natural
+
+430. Unsupported token (custom) (line 22400)
+   2	_MREL	Natural
+
+431. Unsupported token (custom) (line 22515)
+   2	_FREL	Natural
+
+432. Unsupported token (custom) (line 22516)
+   2	_MREL	Natural
+
+433. Unsupported token (custom) (line 22537)
+   2	_FREL	Natural
+
+434. Unsupported token (custom) (line 22538)
+   2	_MREL	Natural
+
+435. Unsupported token (custom) (line 22540)
+   2	_FREL	Natural
+
+436. Unsupported token (custom) (line 22541)
+   2	_MREL	Natural
+
+437. Unsupported token (custom) (line 22543)
+   2	_FREL	Natural
+
+438. Unsupported token (custom) (line 22544)
+   2	_MREL	Natural
+
+439. Unsupported token (custom) (line 22546)
+   2	_FREL	Natural
+
+440. Unsupported token (custom) (line 22547)
+   2	_MREL	Natural
+
+441. Unsupported token (custom) (line 22549)
+   2	_FREL	Natural
+
+442. Unsupported token (custom) (line 22550)
+   2	_MREL	Natural
+
+443. Unsupported token (custom) (line 22555)
+   2	_FREL	Natural
+
+444. Unsupported token (custom) (line 22556)
+   2	_MREL	Natural
+
+445. Unsupported token (custom) (line 22561)
+   2	_FREL	Natural
+
+446. Unsupported token (custom) (line 22562)
+   2	_MREL	Natural
+
+447. Unsupported token (custom) (line 22567)
+   2	_FREL	Natural
+
+448. Unsupported token (custom) (line 22568)
+   2	_MREL	Natural
+
+449. Unsupported token (custom) (line 22573)
+   2	_FREL	Natural
+
+450. Unsupported token (custom) (line 22574)
+   2	_MREL	Natural
+
+451. Unsupported token (custom) (line 22579)
+   2	_FREL	Natural
+
+452. Unsupported token (custom) (line 22580)
+   2	_MREL	Natural
+
+453. Missing value (line 23497)
+   1	ADDR	
+
+454. Missing value (line 23498)
+   1	EMAIL	
+
+455. Missing value (line 23499)
+   1	PHON	
+
+456. Missing value (line 23502)
+   1	ADDR	
+
+457. Missing value (line 23503)
+   1	EMAIL	
+
+458. Missing value (line 23504)
+   1	PHON	
+
+459. Missing value (line 23507)
+   1	ADDR	
+
+460. Missing value (line 23508)
+   1	EMAIL	
+
+461. Missing value (line 23509)
+   1	PHON	
+
+462. Missing value (line 23513)
+   1	EMAIL	
+
+463. Missing value (line 23514)
+   1	PHON	
+
+464. Missing value (line 23517)
+   1	ADDR	
+
+465. Missing value (line 23518)
+   1	EMAIL	
+
+466. Missing value (line 23519)
+   1	PHON	
+
+467. Missing value (line 23522)
+   1	ADDR	
+
+468. Missing value (line 23523)
+   1	EMAIL	
+
+469. Missing value (line 23524)
+   1	PHON	
+
+470. Missing value (line 23527)
+   1	ADDR	
+
+471. Missing value (line 23528)
+   1	EMAIL	
+
+472. Missing value (line 23529)
+   1	PHON	
+
+473. Missing value (line 23532)
+   1	ADDR	
+
+474. Missing value (line 23533)
+   1	EMAIL	
+
+475. Missing value (line 23534)
+   1	PHON	
+
+476. Missing value (line 23537)
+   1	ADDR	
+
+477. Missing value (line 23538)
+   1	EMAIL	
+
+478. Missing value (line 23539)
+   1	PHON	
+
+479. Missing value (line 23542)
+   1	ADDR	
+
+480. Missing value (line 23543)
+   1	EMAIL	
+
+481. Missing value (line 23544)
+   1	PHON	
+
+482. Missing value (line 23547)
+   1	ADDR	
+
+483. Missing value (line 23548)
+   1	EMAIL	
+
+484. Missing value (line 23549)
+   1	PHON	
+
+485. Missing value (line 23552)
+   1	ADDR	
+
+486. Missing value (line 23553)
+   1	EMAIL	
+
+487. Missing value (line 23554)
+   1	PHON	
+
+488. Missing value (line 23557)
+   1	ADDR	
+
+489. Missing value (line 23558)
+   1	EMAIL	
+
+490. Missing value (line 23559)
+   1	PHON	
+

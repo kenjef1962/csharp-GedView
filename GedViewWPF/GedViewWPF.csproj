@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B260F936-8827-4970-8EB4-14C76E98C592}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GedViewWPF</RootNamespace>
+    <AssemblyName>GedViewWPF</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GalaSoft.MvvmLight, Version=4.0.23.35518, Culture=neutral, PublicKeyToken=3e875cdb3903c512, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Controls\CitationControl.xaml.cs">
+      <DependentUpon>CitationControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PedigreeButtonControl.xaml.cs">
+      <DependentUpon>PedigreeButtonControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GroupHeaderControl.xaml.cs">
+      <DependentUpon>GroupHeaderControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PersonClueControl.xaml.cs">
+      <DependentUpon>PersonClueControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PersonListItemControl.xaml.cs">
+      <DependentUpon>PersonListItemControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PersonBioBDControl.xaml.cs">
+      <DependentUpon>PersonBioBDControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FactTimelineControl.xaml.cs">
+      <DependentUpon>FactTimelineControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PersonBioBMDControl.xaml.cs">
+      <DependentUpon>PersonBioBMDControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\BoolToVisibilityConverter.cs" />
+    <Compile Include="Converters\ImagePathToThumbnailConverter.cs" />
+    <Compile Include="Converters\FilePathToFilenameConverter.cs" />
+    <Compile Include="Converters\SexToSiblingRelationConverter.cs" />
+    <Compile Include="Converters\SexToChildRelationConverter.cs" />
+    <Compile Include="Converters\FactTypeToFactDescriptionConverter.cs" />
+    <Compile Include="Converters\SexToSilhouetteConverter.cs" />
+    <Compile Include="DataAccess\DataManager.cs" />
+    <Compile Include="DataAccess\Mapper.cs" />
+    <Compile Include="Extensions\DataGridExtension.cs" />
+    <Compile Include="Messaging\Commands.cs" />
+    <Compile Include="Model\Citation.cs" />
+    <Compile Include="Model\Clue.cs" />
+    <Compile Include="Model\GroupHeader.cs" />
+    <Compile Include="Model\Source.cs" />
+    <Compile Include="Model\Family.cs" />
+    <Compile Include="Model\Date.cs" />
+    <Compile Include="Model\Fact.cs" />
+    <Compile Include="Model\Media.cs" />
+    <Compile Include="Model\Person.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\Utils.cs" />
+    <Compile Include="ViewModel\People\PeopleFamilyViewModel.cs" />
+    <Compile Include="ViewModel\People\PeopleIndividualViewModel.cs" />
+    <Compile Include="ViewModel\People\PeoplePedigreeViewModel.cs" />
+    <Compile Include="ViewModel\Plan\PlanOpenedViewModel.cs" />
+    <Compile Include="ViewModel\Plan\PlanClosedViewModel.cs" />
+    <Compile Include="ViewModel\MainWindowViewModel.cs" />
+    <Compile Include="ViewModel\People\PeopleViewModel.cs" />
+    <Compile Include="ViewModel\Plan\PlanViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="Controls\PersonBioMiniControl.xaml.cs">
+      <DependentUpon>PersonBioMiniControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\People\PeopleFamilyView.xaml.cs">
+      <DependentUpon>PeopleFamilyView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\People\PeopleIndividualView.xaml.cs">
+      <DependentUpon>PeopleIndividualView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\People\PeoplePedigreeView.xaml.cs">
+      <DependentUpon>PeoplePedigreeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Plan\PlanOpenedView.xaml.cs">
+      <DependentUpon>PlanOpenedView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Plan\PlanClosedView.xaml.cs">
+      <DependentUpon>PlanClosedView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\People\PeopleView.xaml.cs">
+      <DependentUpon>PeopleView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Plan\PlanView.xaml.cs">
+      <DependentUpon>PlanView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Controls\CitationControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\PedigreeButtonControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\GroupHeaderControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\PersonClueControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\PersonListItemControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\PersonBioBDControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\FactTimelineControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\PersonBioBMDControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Controls\PersonBioMiniControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\People\PeopleFamilyView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\People\PeopleIndividualView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\People\PeoplePedigreeView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Plan\PlanOpenedView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Plan\PlanClosedView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\People\PeopleView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Plan\PlanView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ToolStripMedia.png" />
+    <Resource Include="Resources\ToolStripPeople.png" />
+    <Resource Include="Resources\ToolStripPlaces.png" />
+    <Resource Include="Resources\ToolStripPlan.png" />
+    <Resource Include="Resources\ToolStripPublish.png" />
+    <Resource Include="Resources\ToolStripResearch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="Resources\SplashScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ToolStripSources.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ToolStripTree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Styles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\OpenFile16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\NewFile16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ErrorIcon.png" />
+    <Resource Include="Resources\InfoIcon.png" />
+    <Resource Include="Resources\WarnIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SilhouetteFemale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SilhouetteMale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SilhouetteUnknown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Validated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Goto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GedcomReader\GedcomReader\GedcomReader.csproj">
+      <Project>{89976c1a-7c34-45f1-ab86-e9cb75af0dcd}</Project>
+      <Name>GedcomReader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FanChart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loading.GIF" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+﻿0 @M1@ NON-OBJE
+-------------------------
+0 @M1@ OBJE
+1 FORM Format
+1 TITL Title
+2 CONC detail
+1 FILE c:\path\filename.ext
+1 NOTE
+2 CONC Note 1 details
+1 NOTE
+2 CONC Note 2 details
+1 UNKNOWN

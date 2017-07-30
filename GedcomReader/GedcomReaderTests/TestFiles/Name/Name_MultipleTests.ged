@@ -1,0 +1,28 @@
+﻿0 NON-NAME
+-------------------------
+0 NAME 
+-------------------------
+0 NAME Kendall Jay /Jefferson/
+-------------------------
+0 NAME /Jefferson/ Kendall Jay
+-------------------------
+0 NAME Kendall /Jefferson/ Jay
+-------------------------
+0 NAME Kendall Jay Jefferson
+-------------------------
+0 NAME Kendall Jay /Jefferson/
+1 NPFX Mr.
+1 GIVN Kendall Jay
+1 NICK KenJef
+1 SPFX <none>
+1 SURN Jefferson
+1 NSFX <none>
+1 SOUR @S1@
+2 PAGE Citation 1 details
+1 SOUR @S2@
+2 PAGE Citation 2 details
+1 NOTE
+2 CONC Note 1 details
+1 @N1@ NOTE
+2 CONC Note 2 details
+1 UNKNOWN

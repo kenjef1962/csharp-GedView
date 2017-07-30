@@ -1,0 +1,13 @@
+﻿1 NON-NOTE
+-------------------------
+1 @N1@ NOTE
+2 CONC Note line 1
+2 CONT Note line 2
+2 UNKN
+-------------------------
+1 NOTE Note line
+-------------------------
+1 TEXT Note
+2 CONC line 1
+2 CONT Note line 2
+2 UNKN

@@ -1,0 +1,34 @@
+﻿---------- All Token Header Test ----------
+0 HEAD
+1 SOUR FTM
+2 VERS Family Tree Maker (22.0.0.239)
+2 NAME Family Tree Maker for Windows
+2 CORP Ancestry.com
+3 ADDR 360 W 4800 N
+4 CITY Provo
+4 STAT UT
+4 POST 84604
+4 CTRY USA
+3 PHON (801) 705-7000
+2 DATA Family Tree Maker
+3 DATE 19 Aug 2013
+3 COPR (c) 2013 Ancestry.com
+1 DEST GED55
+1 DATE 19 Aug 2013
+2 TIME 12:30:59.99
+1 SUBM @SUBM@
+1 SUBN @SUBN@
+1 FILE ReadHeaderTest.ged
+1 COPR (c) 2013 Ancestry.com
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+2 VERS 1.0
+1 LANG English
+1 PLAC
+2 FORM City, County, State, Country
+1 NOTE Note 
+2 CONC line 1
+2 CONT Note line 2
+---------- End of Test ----------

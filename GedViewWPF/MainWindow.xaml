@@ -1,0 +1,52 @@
+﻿<Window x:Class="GedViewWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+		xmlns:vm="clr-namespace:GedViewWPF.ViewModel"
+		xmlns:vw="clr-namespace:GedViewWPF.View"
+        
+        mc:Ignorable="d" 
+		d:DesignHeight="480" d:DesignWidth="640"
+
+		Title="GedViewer WPF" 
+		Icon="/GedViewWPF;component/Resources/ToolStripTree.png"
+        MinHeight="768" MinWidth="1024"
+		WindowStartupLocation="CenterScreen"
+        Background="DarkGray">
+
+	<Window.InputBindings>
+		<KeyBinding Key="O" Modifiers="Control" Command="{Binding FileOpenCommand}"/>
+	</Window.InputBindings>
+
+	<Window.Resources>
+		<DataTemplate DataType="{x:Type vm:PlanViewModel}">
+			<vw:PlanView />
+		</DataTemplate>
+		<DataTemplate DataType="{x:Type vm:PeopleViewModel}">
+			<vw:PeopleView />
+		</DataTemplate>
+	</Window.Resources>
+
+	<DockPanel>
+		<Menu DockPanel.Dock="Top" Padding="2">
+			<MenuItem Header="File">
+                <MenuItem Header="New ..." Command="{Binding FileNewCommand}" />
+                <MenuItem Header="Open ..." Command="{Binding FileOpenCommand}" />
+                <MenuItem Header="Close ..." Command="{Binding FileCloseCommand}" />
+				<Separator />
+				<MenuItem Header="Exit" Command="{Binding FileExitCommand}" />
+			</MenuItem>
+			<MenuItem Header="View">
+				<MenuItem Header="Plan" Command="{Binding ViewNavigateCommand}" CommandParameter="Plan" />
+				<MenuItem Header="People" Command="{Binding ViewNavigateCommand}" CommandParameter="People"/>
+			</MenuItem>
+			<MenuItem Header="Help">
+				<MenuItem Header="Help ..." />
+				<MenuItem Header="About ..." />
+			</MenuItem>
+		</Menu>
+        
+		<ContentControl Content="{Binding CurrentVM}" />
+	</DockPanel>
+</Window>

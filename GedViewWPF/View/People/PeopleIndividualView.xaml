@@ -1,0 +1,147 @@
+﻿<UserControl x:Class="GedViewWPF.View.PeopleTimelineView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ctrl="clr-namespace:GedViewWPF.Controls"
+             xmlns:conv="clr-namespace:GedViewWPF.Converters"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="White" Offset=".5"/>
+            <GradientStop Color="Gray" Offset="1"/>
+        </LinearGradientBrush>
+    </UserControl.Background>
+    <UserControl.Resources>
+        <Style x:Key="LinkButton" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <TextBlock TextDecorations="None">
+                            <ContentPresenter />
+                        </TextBlock>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="FontStyle" Value="Italic" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Foreground" Value="Blue" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Border Grid.Column="0" Grid.Row="0" Padding="5" BorderThickness="1,1,1,1" BorderBrush="Black" CornerRadius="5">
+            <ctrl:PersonBioBMDControl  DataContext="{Binding SelectedPerson}" />
+        </Border>
+
+        <Image Grid.Column="1" Height="60" Width="45" Source="/GedViewWPF;component/Resources/PedigreeLines.png" />
+                
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Padding="5" BorderThickness="1,1,1,0" BorderBrush="Black" CornerRadius="5,5,0,0">
+                <ctrl:PersonBioMiniControl  DataContext="{Binding SelectedPersonFather}" />
+            </Border>
+
+            <Border Grid.Row="1" Padding="5" BorderThickness="1,1,1,1" BorderBrush="Black" CornerRadius="0,0,5,5">
+                <ctrl:PersonBioMiniControl Grid.Row="1" DataContext="{Binding SelectedPersonMother}" />
+            </Border>
+        </Grid>
+
+        <Border x:Name="xyz" Grid.Column="0" Grid.Row="1" Margin="0,10,0,0" Padding="5" BorderThickness="1" BorderBrush="Black" CornerRadius="5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Text="Timeline" />
+
+                <ListBox Grid.Row="1" Margin="0,5,0,0" ItemsSource="{Binding SelectedPersonFacts}" SelectedItem="{Binding SelectedFact}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Stretch">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <ctrl:FactTimelineControl DataContext="{Binding}" />
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </Border>
+
+        <Border Grid.Column="2" Grid.Row="1" Margin="0,10,0,0" Padding="5" BorderThickness="1" BorderBrush="Black" CornerRadius="5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <TabControl Grid.Row="0">
+                  <TabItem Header="Sources">
+                        <ListBox ItemsSource="{Binding SelectedFactCitations}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Stretch">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <ctrl:CitationControl DataContext="{Binding}" />
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </TabItem>
+
+                    <TabItem Header="Media">
+                        <ListBox ItemsSource="{Binding SelectedFactMedia}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" />
+                    </TabItem>
+
+                    <TabItem Header="Notes">
+                        <ListBox ItemsSource="{Binding SelectedFactNotes}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Stretch">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding}" TextWrapping="Wrap"/>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </TabItem>
+                </TabControl>
+
+                <TextBlock Grid.Row="1" Margin="0,5,0,0" Text="Research Clues" />
+                
+                <ListBox Grid.Row="2" Margin="0,5,0,0" ItemsSource="{Binding SelectedPersonClues}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Stretch">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <ctrl:PersonClueControl DataContext="{Binding}" />
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+                <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Stretch" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}">
+                    <TextBlock Margin="3" Text="Search:" FontWeight="Bold" VerticalAlignment="Center" />
+                    <Button Margin="3" Content="Ancestry.com" Command="{Binding SearchCommand}" CommandParameter="Ancestry" Style="{StaticResource LinkButton}" />
+                    <Button Margin="3" Content="Archives.com" Command="{Binding SearchCommand}" CommandParameter="Archives" Style="{StaticResource LinkButton}" />
+                    <Button Margin="3" Content="FamilySearch.org" Command="{Binding SearchCommand}" CommandParameter="FamilySearch" Style="{StaticResource LinkButton}" />
+                    <Button Margin="3" Content="Fold3.com" Command="{Binding SearchCommand}" CommandParameter="Fold3" Style="{StaticResource LinkButton}" />
+                    <Button Margin="3" Content="NewsPapers.com" Command="{Binding SearchCommand}" CommandParameter="NewsPapers" Style="{StaticResource LinkButton}" />
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+
+</UserControl>

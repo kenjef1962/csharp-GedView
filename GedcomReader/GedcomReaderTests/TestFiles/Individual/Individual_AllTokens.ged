@@ -1,0 +1,63 @@
+﻿---------- All Tokens -----------
+0 @I1@ INDI
+1 NAME Kendall Jay /Jefferson/
+1 SEX M
+1 BIRT
+2 DATE 22 SEP 1962
+2 PLAC Denver, Denver, Colorado
+2 NOTE @N1@
+2 SOUR @S1@
+3 PAGE Source 1 Citation 1 Detail
+3 DATA
+4 TEXT Source 1 Citation 1 Test
+3 _FOOT Citation Notes
+3 NOTE
+4 CONC Source 1 Citation 1 Notes
+3 OBJE @M4@
+2 OBJE @M3@
+1 BAPL
+2 DATE 10 JUL 1971
+2 PLAC Grand Junction, Mesa, Colorado
+1 EVEN
+2 TYPE CustomFact
+2 DATE 01 JAN 2000
+2 PLAC Orem, Utah, Utah
+1 FAMC @F1@
+2 PEDI Adopted
+2 NOTE Family to child link note
+1 FAMC @F2@
+1 FAMS @F3@
+2 NOTE Family to spouse link note
+1 FAMS @F4@
+1 SUBM @SUBM1@
+1 SUBM @SUBM2@
+1 SOUR @S1@
+2 PAGE Citation 1 detail
+2 DATA
+3 TEXT Citation 1 text
+2 NOTE @N1@
+2 OBJE @M3@
+1 SOUR @S2@
+2 PAGE Citation 2 detail
+2 DATA
+3 TEXT Citation 2 text
+2 NOTE @N1@
+2 OBJE @M3@
+1 OBJE @M1@
+1 OBJE @M2@
+1 NOTE
+2 CONC Note line 1
+2 CONT Note line 2
+1 @N1@ NOTE
+2 CONC Note line 1
+2 CONT Note line 2
+1 RFN Rfn-1
+1 AFN Afn-1
+1 REFN Refn-1
+1 REFN Refn-2
+1 RIN Rin-1
+1 CHAN
+2 DATE 01 Jan 2000
+3 TIME 12:34:56.789
+2 NOTE Change note
+--------------------------------

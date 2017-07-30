@@ -1,0 +1,101 @@
+﻿<UserControl x:Class="GedViewWPF.View.PlanView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+			 xmlns:vm="clr-namespace:GedViewWPF.ViewModel" 
+			 xmlns:vw="clr-namespace:GedViewWPF.View" 
+			 mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="400">
+	
+	<UserControl.Resources>
+		<DataTemplate DataType="{x:Type vm:PlanClosedViewModel}">
+			<vw:PlanClosedView />
+		</DataTemplate>
+		<DataTemplate DataType="{x:Type vm:PlanOpenedViewModel}">
+			<vw:PlanOpenedView />
+		</DataTemplate>
+		
+		<Style x:Key="HyperLinkButton" TargetType="Button">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<TextBlock TextDecorations="None">
+                            <ContentPresenter />
+						</TextBlock>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+			<Setter Property="Foreground" Value="Black" />
+			<Setter Property="Cursor" Value="Hand" />
+			<Style.Triggers>
+				<Trigger Property="IsMouseOver" Value="true">
+					<Setter Property="Foreground" Value="Blue" />
+				</Trigger>
+			</Style.Triggers>
+		</Style>
+	</UserControl.Resources>
+	
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="250" />
+			<ColumnDefinition Width="*" />
+		</Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Margin="5" Background="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Padding="5" Background="#9c5457">
+                <TextBlock Text="GedView WPF" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" />
+            </Border>
+
+            <Border Grid.Row="1" Padding="5" BorderBrush="#9c5457" BorderThickness="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Margin="0,0,0,5" Text="Start" FontSize="14" FontWeight="Bold" />
+                
+                    <StackPanel Grid.Row="1">
+                        <Button Command="{Binding FileNewCommand}" Style="{StaticResource HyperLinkButton}" Content="New gedcom file ..." />
+                        <Button Margin="0,5,0,0" Command="{Binding FileOpenCommand}" Style="{StaticResource HyperLinkButton}" Content="Open gedcom file ..." />
+                    </StackPanel>
+
+                    <Grid Grid.Row="2" Margin="0,20,0,5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0" Text="Recent Gedcoms" FontSize="14" FontWeight="Bold" />
+                
+                        <Button Grid.Row="1" Command="{Binding GedcomOpenCommand}" Style="{StaticResource HyperLinkButton}" Content="[Open]" HorizontalAlignment="Right" />
+                    </Grid>
+
+                    <ListBox Grid.Row="3" Margin="-5,0,-5, -5" ItemsSource="{Binding GedcomFileList}" SelectedItem="{Binding GedcomFilename}" BorderBrush="#9c5457" BorderThickness="0, 1, 0, 0">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Converter={StaticResource FilePathToFilenameConverter}}">
+                                    <TextBlock.ToolTip>
+                                        <ToolTip DataContext="{TemplateBinding Content}">
+                                            <TextBlock Text="{Binding}" />
+                                        </ToolTip>
+                                    </TextBlock.ToolTip>
+                                </TextBlock>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <ContentControl Grid.Column="1" Margin="0,5,5,5" Content="{Binding CurrentVM}"/>
+    </Grid>
+</UserControl>

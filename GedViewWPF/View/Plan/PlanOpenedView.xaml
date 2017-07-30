@@ -1,0 +1,122 @@
+﻿<UserControl x:Class="GedViewWPF.View.PlanOpenedView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+			 mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+    <UserControl.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="White" Offset=".5"/>
+            <GradientStop Color="Gray" Offset="1"/>
+        </LinearGradientBrush>
+    </UserControl.Background>
+    
+    <UserControl.Resources>
+        <Style x:Key="HyperLinkButton" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <TextBlock TextDecorations="None">
+                            <ContentPresenter />
+                        </TextBlock>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Foreground" Value="Blue" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+		<Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+		</Grid.RowDefinitions>
+        
+        <Border Grid.Row="0" Padding="5" BorderThickness="0,0,0,1" BorderBrush="Gray">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" Text="Current gedcom: " FontSize="18" FontWeight="Bold" />
+                <TextBlock Grid.Column="1" Text="{Binding GedcomFilename}" FontSize="18" />
+                <Button Grid.Column="2" Command="{Binding FileCloseCommand}" Style="{StaticResource HyperLinkButton}" Content="[Close]" VerticalAlignment="Center" />
+            </Grid>
+        </Border>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Column="0" Grid.Row="0" Margin="5" Text="FileSize:"/>
+            <TextBlock Grid.Column="1" Grid.Row="0" Margin="5" Text="{Binding FileSize, StringFormat=N0}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="1" Margin="5" Text="File Last Opened:"/>
+            <TextBlock Grid.Column="1" Grid.Row="1" Margin="5" Text="{Binding FileLastOpened}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="2" Margin="5" Text="-----"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="3" Margin="5" Text="Perople:"/>
+            <TextBlock Grid.Column="1" Grid.Row="3" Margin="5" Text="{Binding PersonCount, StringFormat=N0}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="4" Margin="5" Text="Families:"/>
+            <TextBlock Grid.Column="1" Grid.Row="4" Margin="5" Text="{Binding FamilyCount, StringFormat=N0}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="5" Margin="5" Text="Facts:"/>
+            <TextBlock Grid.Column="1" Grid.Row="5" Margin="5" Text="{Binding FactCount, StringFormat=N0}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="6" Margin="5" Text="Repositories:"/>
+            <TextBlock Grid.Column="1" Grid.Row="6" Margin="5" Text="{Binding RepositoryCount, StringFormat=N0}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="7" Margin="5" Text="Sources:"/>
+            <TextBlock Grid.Column="1" Grid.Row="7" Margin="5" Text="{Binding SourceCount, StringFormat=N0}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="8" Margin="5" Text="Media:"/>
+            <TextBlock Grid.Column="1" Grid.Row="8" Margin="5" Text="{Binding MediaCount, StringFormat=N0}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="9" Margin="5" Text="Notes:"/>
+            <TextBlock Grid.Column="1" Grid.Row="9" Margin="5" Text="{Binding NoteCount, StringFormat=N0}"/>
+                                                 
+            <TextBlock Grid.Column="0" Grid.Row="10" Margin="5" Text="-----"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="11" Margin="5" Text="Surnames:"/>
+            <TextBlock Grid.Column="1" Grid.Row="11" Margin="5" Text="{Binding SurnameCount, StringFormat=N0}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="12" Margin="5" Text="Men:"/>
+            <TextBlock Grid.Column="1" Grid.Row="12" Margin="5" Text="{Binding MaleCount, StringFormat=N0}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="13" Margin="5" Text="Women:"/>
+            <TextBlock Grid.Column="1" Grid.Row="13" Margin="5" Text="{Binding FemaleCount, StringFormat=N0}"/>
+        </Grid>
+    </Grid>
+
+</UserControl>

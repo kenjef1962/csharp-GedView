@@ -1,0 +1,374 @@
+Gedcom Reader - Log File
+
+Filename: ..\..\TestFiles\Gedcom\M&M.ged
+Read Time: 00:00:00.0041448
+----------------------------------------------------------------------------------------------------
+Individuals: 73
+Families: 23
+Repositories: 2
+Sources: 16
+Media: 27
+Notes: 4
+----------------------------------------------------------------------------------------------------
+Log Items (119)
+
+1. Unknown Token (line 17)
+   0	SUBM	@SUBM@
+
+2. Unknown Token (line 43)
+   1	_MISN	
+   2	PLAC	Nagoya, Aichi, Japan
+   2	NOTE	@N6@
+   1	BIRT	
+
+3. Unknown Token (line 49)
+   1	_PHOTO	@M13@
+
+4. Unknown Token (line 96)
+   1	_PHOTO	@M15@
+
+5. Unknown Token (line 106)
+   1	_PHOTO	@M11@
+
+6. Unknown Token (line 129)
+   1	_PHOTO	@M5@
+
+7. Unknown Token (line 223)
+   1	_PHOTO	@M3@
+
+8. Unknown Token (line 659)
+   1	_PHOTO	@M14@
+
+9. Unknown Token (line 989)
+   1	_PHOTO	@M16@
+
+10. Unknown Token (line 1078)
+   2	CONC	Wife
+
+11. Unknown Token (line 1344)
+   2	CONC	Head
+
+12. Unknown Token (line 1646)
+   1	_PHOTO	@M2@
+
+13. Unknown Token (line 1725)
+   1	_PHOTO	@M6@
+
+14. Unknown Token (line 1745)
+   1	_PHOTO	@M1@
+
+15. Unknown Token (line 1765)
+   1	_PHOTO	@M4@
+
+16. Unknown Token (line 1778)
+   1	_PHOTO	@M12@
+
+17. Unknown Token (line 1816)
+   2	_FREL	Natural
+
+18. Unknown Token (line 1820)
+   2	_FREL	Natural
+
+19. Unknown Token (line 1824)
+   2	_FREL	Natural
+
+20. Unknown Token (line 1828)
+   2	_FREL	Natural
+
+21. Unknown Token (line 1833)
+   2	_FREL	Natural
+
+22. Unknown Token (line 1834)
+   2	_MREL	Natural
+
+23. Unknown Token (line 1836)
+   2	_FREL	Natural
+
+24. Unknown Token (line 1837)
+   2	_MREL	Natural
+
+25. Unknown Token (line 1839)
+   2	_FREL	Natural
+
+26. Unknown Token (line 1840)
+   2	_MREL	Natural
+
+27. Unknown Token (line 1842)
+   2	_FREL	Natural
+
+28. Unknown Token (line 1843)
+   2	_MREL	Natural
+
+29. Unknown Token (line 1845)
+   2	_FREL	Natural
+
+30. Unknown Token (line 1846)
+   2	_MREL	Natural
+
+31. Unknown Token (line 1848)
+   2	_FREL	Natural
+
+32. Unknown Token (line 1849)
+   2	_MREL	Natural
+
+33. Unknown Token (line 1851)
+   2	_FREL	Natural
+
+34. Unknown Token (line 1852)
+   2	_MREL	Natural
+
+35. Unknown Token (line 1864)
+   2	_FREL	Natural
+
+36. Unknown Token (line 1865)
+   2	_MREL	Natural
+
+37. Unknown Token (line 1867)
+   2	_FREL	Adopted
+
+38. Unknown Token (line 1868)
+   2	_MREL	Adopted
+
+39. Unknown Token (line 1879)
+   2	_FREL	Natural
+
+40. Unknown Token (line 1880)
+   2	_MREL	Natural
+
+41. Unknown Token (line 1885)
+   2	_FREL	Natural
+
+42. Unknown Token (line 1886)
+   2	_MREL	Natural
+
+43. Unknown Token (line 1891)
+   2	_FREL	Natural
+
+44. Unknown Token (line 1892)
+   2	_MREL	Natural
+
+45. Unknown Token (line 1897)
+   2	_FREL	Natural
+
+46. Unknown Token (line 1898)
+   2	_MREL	Natural
+
+47. Unknown Token (line 1900)
+   2	_FREL	Natural
+
+48. Unknown Token (line 1901)
+   2	_MREL	Natural
+
+49. Unknown Token (line 1903)
+   2	_FREL	Natural
+
+50. Unknown Token (line 1904)
+   2	_MREL	Natural
+
+51. Unknown Token (line 1906)
+   2	_FREL	Natural
+
+52. Unknown Token (line 1907)
+   2	_MREL	Natural
+
+53. Unknown Token (line 1909)
+   2	_FREL	Natural
+
+54. Unknown Token (line 1910)
+   2	_MREL	Natural
+
+55. Unknown Token (line 1915)
+   2	_FREL	Natural
+
+56. Unknown Token (line 1916)
+   2	_MREL	Natural
+
+57. Unknown Token (line 1918)
+   2	_FREL	Natural
+
+58. Unknown Token (line 1919)
+   2	_MREL	Natural
+
+59. Unknown Token (line 1921)
+   2	_FREL	Natural
+
+60. Unknown Token (line 1922)
+   2	_MREL	Natural
+
+61. Unknown Token (line 1924)
+   2	_FREL	Natural
+
+62. Unknown Token (line 1925)
+   2	_MREL	Natural
+
+63. Unknown Token (line 1927)
+   2	_FREL	Natural
+
+64. Unknown Token (line 1928)
+   2	_MREL	Natural
+
+65. Unknown Token (line 1933)
+   2	_FREL	Natural
+
+66. Unknown Token (line 1934)
+   2	_MREL	Natural
+
+67. Unknown Token (line 1936)
+   2	_FREL	Natural
+
+68. Unknown Token (line 1937)
+   2	_MREL	Natural
+
+69. Unknown Token (line 1939)
+   2	_FREL	Natural
+
+70. Unknown Token (line 1940)
+   2	_MREL	Natural
+
+71. Unknown Token (line 1945)
+   2	_FREL	Natural
+
+72. Unknown Token (line 1946)
+   2	_MREL	Natural
+
+73. Unknown Token (line 1948)
+   2	_FREL	Natural
+
+74. Unknown Token (line 1949)
+   2	_MREL	Natural
+
+75. Unknown Token (line 1956)
+   2	_FREL	Natural
+
+76. Unknown Token (line 1957)
+   2	_MREL	Natural
+
+77. Unknown Token (line 1959)
+   2	_FREL	Natural
+
+78. Unknown Token (line 1960)
+   2	_MREL	Natural
+
+79. Unknown Token (line 1962)
+   2	_FREL	Natural
+
+80. Unknown Token (line 1963)
+   2	_MREL	Natural
+
+81. Unknown Token (line 1965)
+   2	_FREL	Natural
+
+82. Unknown Token (line 1966)
+   2	_MREL	Natural
+
+83. Unknown Token (line 1974)
+   2	_FREL	Natural
+
+84. Unknown Token (line 1975)
+   2	_MREL	Natural
+
+85. Unknown Token (line 1977)
+   2	_FREL	Natural
+
+86. Unknown Token (line 1978)
+   2	_MREL	Natural
+
+87. Unknown Token (line 1980)
+   2	_FREL	Natural
+
+88. Unknown Token (line 1981)
+   2	_MREL	Natural
+
+89. Unknown Token (line 1983)
+   2	_FREL	Natural
+
+90. Unknown Token (line 1984)
+   2	_MREL	Natural
+
+91. Unknown Token (line 1986)
+   2	_FREL	Natural
+
+92. Unknown Token (line 1987)
+   2	_MREL	Natural
+
+93. Unknown Token (line 1989)
+   2	_FREL	Natural
+
+94. Unknown Token (line 1990)
+   2	_MREL	Natural
+
+95. Unknown Token (line 1992)
+   2	_FREL	Natural
+
+96. Unknown Token (line 1993)
+   2	_MREL	Natural
+
+97. Unknown Token (line 1998)
+   2	_FREL	Natural
+
+98. Unknown Token (line 1999)
+   2	_MREL	Natural
+
+99. Unknown Token (line 2004)
+   2	_FREL	Natural
+
+100. Unknown Token (line 2005)
+   2	_MREL	Natural
+
+101. Unknown Token (line 2009)
+   2	_MREL	Natural
+
+102. Unknown Token (line 2011)
+   2	_MREL	Natural
+
+103. Unknown Token (line 2016)
+   2	_FREL	Natural
+
+104. Unknown Token (line 2017)
+   2	_MREL	Natural
+
+105. Unknown Token (line 2019)
+   2	_FREL	Natural
+
+106. Unknown Token (line 2020)
+   2	_MREL	Natural
+
+107. Unknown Token (line 2022)
+   2	_FREL	Natural
+
+108. Unknown Token (line 2023)
+   2	_MREL	Natural
+
+109. Unknown Token (line 2028)
+   2	_FREL	Natural
+
+110. Unknown Token (line 2029)
+   2	_MREL	Natural
+
+111. Unknown Token (line 2034)
+   2	_FREL	Natural
+
+112. Unknown Token (line 2035)
+   2	_MREL	Natural
+
+113. Unknown Token (line 2037)
+   2	_FREL	Natural
+
+114. Unknown Token (line 2038)
+   2	_MREL	Natural
+
+115. Unknown Token (line 2040)
+   2	_FREL	Natural
+
+116. Unknown Token (line 2041)
+   2	_MREL	Natural
+
+117. Unknown Token (line 2043)
+   2	_FREL	Natural
+
+118. Unknown Token (line 2044)
+   2	_MREL	Natural
+
+119. Unknown Token (line 2055)
+   2	_MREL	Natural
+

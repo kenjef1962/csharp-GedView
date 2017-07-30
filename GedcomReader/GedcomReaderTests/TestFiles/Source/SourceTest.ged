@@ -1,0 +1,20 @@
+﻿0 @S1@ NON-SOUR
+-------------------------
+0 @S1@ SOUR
+1 AUTH Author
+2 CONC detail
+1 TITL Title
+2 CONC detail
+1 PUBL Publisher 
+2 CONC detail
+1 TEXT Text
+2 CONC detail
+1 REPO @R1@
+2 CALN Call Number
+1 OBJE @M1@
+1 OBJE @M2@
+1 NOTE
+2 CONC Note 1 details
+1 NOTE
+2 CONC Note 2 details
+1 UNKNOWN

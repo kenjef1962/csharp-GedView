@@ -1,0 +1,47 @@
+﻿---------- Family - All Tokens ----------
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+1 NCHI 2
+1 SUBM @SUBM1@
+1 SUBM @SUBM2@
+1 REFN Refn-1
+1 REFN Refn-2
+1 RIN Rin-1
+1 MARR
+2 DATE 26 JAN 1957
+2 PLAC Alamosa, Alamosa, Colorado, USA
+1 SLGS
+2 DATE 25 JUL 1987
+2 PLAC South Jordan, Salt Lake, Utah, USA
+1 EVEN
+2 TYPE Custom
+2 DATE 01 JAN 2000
+2 PLAC Orem, Utah, Utah, USA
+1 SOUR @S1@
+2 PAGE Citation 1 detail
+2 DATA
+3 TEXT Citation 1 text
+2 NOTE @N1@
+2 OBJE @M3@
+1 SOUR @S2@
+2 PAGE Citation 2 detail
+2 DATA
+3 TEXT Citation 2 text
+2 NOTE @N1@
+2 OBJE @M3@
+1 OBJE @M1@
+1 OBJE @M2@
+1 NOTE
+2 CONC Note line 1
+2 CONT Note line 2
+1 @N1@ NOTE
+2 CONC Note line 1
+2 CONT Note line 2
+1 CHAN
+2 DATE 01 Jan 2000
+3 TIME 12:34:56.789
+2 NOTE Change note
+---------- End of Test ----------

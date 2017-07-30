@@ -1,0 +1,8 @@
+﻿---------- Read Token Methods ----------
+0 HEAD
+1 ReadToken CHAR
+1 ReadToken DATE
+1 ReadToken GEDC
+1 ReadToken SOUR
+1 ReadToken SOUR_CORP
+---------- End of Test ----------

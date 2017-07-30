@@ -1,0 +1,50 @@
+﻿1 NON-FACT
+-------------------------
+1 BIRT
+2 DATE 22 SEP 1962
+2 PLAC Denver, Denver, Colorado, USA
+3 FORM City, County, State, Country
+3 SOUR @S1@
+3 NOTE @N1@
+2 ADDR 2599 H Road
+3 CITY Grand Junction
+3 STAT Colorado
+3 POST 81505
+3 CTRY USA
+2 AGE Age at Event
+2 AGNC Agency of Responsibility (ignored)
+2 CAUS Cause of Event
+2 SOUR @S1@
+3 PAGE Citation 1 Detail
+3 DATA
+4 TEXT Citation 1 Text
+3 NOTE @N1@
+3 OBJE @M3@
+2 SOUR @S2@
+3 PAGE Citation 2 Detail
+3 DATA
+4 TEXT Citation 2 Text
+3 NOTE @N1@
+3 OBJE @M3@
+2 OBJE @M1@
+2 OBJE @M2@
+2 NOTE @N1@
+2 NOTE @N2@
+-------------------------
+1 EVEN
+2 TYPE Custom
+2 DATE 01 JAN 2000
+2 PLAC Orem, Utah, Utah
+-------------------------
+1 MARR
+-------------------------
+1 SLGC
+-------------------------
+1 SLGS
+2 STAT COMPLETED
+2 DATE 08 Aug 1987
+2 TEMP JRIVE
+2 PLAC South Jordan, Salt Lake, Utah, USA
+-------------------------
+1 EVEN
+-------------------------

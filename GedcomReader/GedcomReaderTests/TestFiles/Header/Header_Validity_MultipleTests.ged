@@ -1,0 +1,44 @@
+﻿---------- Header Validity - Missing Source Token ----------
+0 HEAD
+1 SUBM @SUBM@
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+---------- Header Validity - Missing Submitter ID Token ----------
+0 HEAD
+1 SOUR FTM
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+---------- Header Validity - Missing Gedcom Version Token ----------
+0 HEAD
+1 SOUR FTM
+1 SUBM @SUBM@
+1 GEDC
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+---------- Header Validity - Missing Gedcom Form Token ----------
+0 HEAD
+1 SOUR FTM
+1 SUBM @SUBM@
+1 GEDC
+2 VERS 5.5
+1 CHAR UTF-8
+---------- Header Validity - Missing Character Set Token ----------
+0 HEAD
+1 SOUR FTM
+1 SUBM @SUBM@
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+---------- Header Validity - Missing No Required Tokens ----------
+0 HEAD
+1 SOUR FTM
+1 SUBM @SUBM@
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+---------- End of Test ----------
